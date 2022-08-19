@@ -1,0 +1,14 @@
+forge-1.18.2:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       runtimeOnly fg.deobf("curse.maven:world_edit-225608:3697298")
+    }
+name: "world edit"

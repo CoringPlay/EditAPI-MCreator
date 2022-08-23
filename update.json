@@ -1,5 +1,6 @@
 {
   "editapi": {
+    "description":"Add WorldEdit 1.18.2",
     "latest": "1.0"
   }
 }
